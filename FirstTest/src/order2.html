@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" , initial-scale="1">
+	<title>추몽</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/order.css">
+	<link rel="stylesheet" href="../css/codingBooster.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+				<span class="sr-only"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">추몽</a>
+		</div>
+		<div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">소개<span class="sr-only"></span></a></li>
+				<li><a href="instructor.html">강사진</a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+										data-toggle="dropdown" role="button" aria-haspopup="true"
+										aria-expanded="false">강의<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="lecture.html?lectureName=C">C언어</a></li>
+						<li><a href="lecture.html?lectureName=Java">Java</a></li>
+						<li><a href="lecture.html?lectureName=Android">안드로이드</a></li>
+					</ul></li>
+			</ul>
+			<form class = "navbar-form navbar-left">
+				<div class = "form-group">
+					<input type = "text" class = "form-control" placeholder="내용을 입력하세요.">
+				</div>
+				<button type = "submit" class = "btn btn-default">검색</button>
+			</form>
+			<ul class = "nav navbar-nav navbar-right">
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+										data-toggle="dropdown" role="button" aria-haspopup="true"
+										aria-expanded="false">접속하기<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="loginForm.html">로그인</a></li>
+						<li><a href="registerForm.html">회원가입</a></li>
+					</ul></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+
+<!-- 결제확인 -->
+<div class="order_theme">
+	<div class="grid_small">
+		<div class="board_header">
+			<div class="board_header_h">
+					<h3>1. 결제하기</h3>
+			</div>
+			<div class="board_header_h">
+				<h3>2. 결제 확인</h3>
+			</div>
+		</div>
+			<div class="board_body">
+				<div class="board_block">
+					<h3>수강 정보</h3>
+						<div class="board_block_item">
+							<span>상품명</span>
+							<p>상품명은 러버덕</p>
+						</div>
+						<hr>
+					<div class="board_block_item">
+						<span>이름</span>
+						<p>최혜빈</p>
+					</div>
+						<div class="board_block_item">
+							<span>이메일</span>
+							<p>h_bee99@naver.com</p>
+						</div>
+						<div class="board_block_item">
+							<span>전화번호</span>
+							<p>01012345678</p>
+						</div>
+				</div>
+				<div class="board_block">
+					<h3>결제 정보</h3>
+					<div class="board_block_item">
+						<span>판매가</span>
+						<p>250,000,000</p>
+					</div>
+					<hr>
+					<div class="board_block_item2">
+						<span>결제 금액</span>
+						<p>250,000,000원</p>
+					</div>
+					<div class="board_block_item2">
+						<span>결제 수단</span>
+						<p>국민 567690736323</p>
+					</div>
+					<div class="board_block_item2">
+						<span>입금 기한</span>
+						<p>2023.03.10 15:56</p>
+					</div>
+				</div>
+				<session>
+					<button class="btn_purchase_submit" onclick="location.href='#'">결제 내역 확인</button>
+				</session>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer style = "background-color: #000000; color: #ffffff">
+	<div class = "container">
+		<hr>
+		<div class = "row">
+			<div class = "col-sm-2" style = "text-align: center;"><h5>Copyright &copy; 2022</h5><h5>추명호,윤성기,최혜빈,홍상현</h5></div>
+			<div class = "col-sm-4"><h4>대표자 소개</h4><p>저는 추몽의 대표 추명호입니다. 그린컴퓨터아카데미에서 공부중이며 웹 개발에 관심이 많습니다.</p></div>
+			<div class = "col-sm-2"><h4 style = "text-align: center;">내비게이션</h4>
+				<div class = "list-group">
+					<a href = "index.html" class = "list-group-item">소개</a>
+					<a href = "instructor.html" class = "list-group-item">강사진</a>
+					<a href = "lecture.html" class = "list-group-item">강의</a>
+				</div>
+			</div>
+			<div class = "col-sm-2"><h4 style = "text-align: center;">SNS</h4>
+				<div class = "list-group">
+					<a href = "https://ko-kr.facebook.com/" class = "list-group-item">페이스북</a>
+					<a href = "https://www.youtube.com/" class = "list-group-item">유튜브</a>
+					<a href = "https://www.naver.com/" class = "list-group-item">네이버</a>
+				</div>
+			</div>
+			<div class = "col-sm-2"><h4 style = "text-align: center;"><span class = "glyphicon glyphicon-ok"></span>&nbsp;by 추명호</h4></div>
+		</div>
+	</div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>

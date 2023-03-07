@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" , initial-scale="1">
+<title>추몽</title>
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/codingBooster.css">
+<link rel="stylesheet" href="../css/list.css">
+
+</head>
+
+<body>
+<style type="text/css">
+.jumbotron {
+	background-image: url('../image/');
+	text-shadow: black 0.2em 0.2em 0.2em;
+	color: white;
+}
+</style>
+<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="Main.html">추몽</a>
+			</div>
+			<div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">작업 카테고리<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<h4>
+								&nbsp;&nbsp;&nbsp;드로잉<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">캐릭터</a></li>
+							<li><a href="lecture.html?lectureName=Java">일러스트</a></li>
+							<li><a href="lecture.html?lectureName=Android">캐리커쳐</a></li>
+							<hr>
+							<h4>
+								&nbsp;&nbsp;&nbsp;크리에이티브<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">성우</a></li>
+							<li><a href="lecture.html?lectureName=Java">작곡</a></li>
+							<li><a href="lecture.html?lectureName=Android">영상제작</a></li>
+							<hr>
+							<h4>
+								&nbsp;&nbsp;&nbsp;프로그래밍<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">게임제작</a></li>
+							<li><a href="lecture.html?lectureName=Java">앱</a></li>
+							<li><a href="lecture.html?lectureName=Android">홈페이지</a></li>
+							<hr>
+							<h4>
+								&nbsp;&nbsp;&nbsp;번역,통역<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">영어</a></li>
+							<li><a href="lecture.html?lectureName=Java">일본어</a></li>
+							<li><a href="lecture.html?lectureName=Android">중국어</a></li>
+						</ul></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">강의/교육 카테고리<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<h4>
+								&nbsp;&nbsp;&nbsp;드로잉<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">캐릭터</a></li>
+							<li><a href="lecture.html?lectureName=Java">일러스트</a></li>
+							<li><a href="lecture.html?lectureName=Android">캐리커쳐</a></li>
+							<hr>
+							<h4>
+								&nbsp;&nbsp;&nbsp;음악<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">노래</a></li>
+							<li><a href="lecture.html?lectureName=Java">악기연주</a></li>
+							<li><a href="lecture.html?lectureName=Android">힙합</a></li>
+							<hr>
+							<h4>
+								&nbsp;&nbsp;&nbsp;스포츠<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">태권도</a></li>
+							<li><a href="lecture.html?lectureName=Java">헬스</a></li>
+							<li><a href="lecture.html?lectureName=Android">필라테스, 요가</a></li>
+							<hr>
+							<h4>
+								&nbsp;&nbsp;&nbsp;언어<br>
+							</h4>
+							<li><a href="lecture.html?lectureName=C">영어</a></li>
+							<li><a href="lecture.html?lectureName=Java">일본어</a></li>
+							<li><a href="lecture.html?lectureName=Android">중국어</a></li>
+						</ul></li>
+					<li><a href="instructor.html">이벤트</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+						</div>
+						<button type="submit" class="btn btn-default">검색</button>
+					</form>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">접속하기<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="loginForm.html">로그인</a></li>
+							<li><a href="registerForm.html">회원가입</a></li>
+						</ul></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--  헤더 끝 -->
+<h1><b> "검색 단어" 검색결과입니다. </b></h1>
+	<div class = "item_list">
+	<div class = "container">
+	
+	<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+		<div class = "mcard" style="cursor: pointer;" onclick="location.href='instructor.html'">
+		<div class = "mcard-imagebin"></div>
+		<div class = "mcard-text">
+		<h4>기초 도형으로 쉽게 접근하는 드로잉</h4>
+		<p>일러스트 작가 그림그림</p>
+		</div>
+		<div class = "mcard-stats"></div>
+		</div>
+		
+	
+	</div>
+	</div>
+	
+	<!--  푸터 시작 -->
+	<footer style="background-color: #000000; color: #ffffff">
+			<div class="container">
+				<hr>
+				<div class="row">
+					<div class="col-sm-2" style="text-align: center;">
+						<h5>Copyright &copy; 2022</h5>
+						<h5>추명호,윤성기,최혜빈,홍상현</h5>
+					</div>
+					<div class="col-sm-4">
+						<h4>대표자 소개</h4>
+						<p>저는 추몽의 대표 추명호입니다. 그린컴퓨터아카데미에서 공부중이며 웹 개발에 관심이 많습니다.</p>
+					</div>
+					<div class="col-sm-2">
+						<h4 style="text-align: center;">내비게이션</h4>
+						<div class="list-group">
+							<a href="Main.html" class="list-group-item">소개</a> <a
+								href="instructor.html" class="list-group-item">강사진</a> <a
+								href="lecture.html" class="list-group-item">강의</a>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<h4 style="text-align: center;">SNS</h4>
+						<div class="list-group">
+							<a href="https://ko-kr.facebook.com/" class="list-group-item">페이스북</a>
+							<a href="https://www.youtube.com/" class="list-group-item">유튜브</a>
+							<a href="https://www.naver.com/" class="list-group-item">네이버</a>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<h4 style="text-align: center;">
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;by 추명호
+						</h4>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="row">
+			<div class="modal" id="modal" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							추몽의 특징
+							<button class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body" style="text-align: center;">
+							저희 서비스의 특징은 바로 강의를 들을 수 있다는 점입니다. <br> 특히 다양한 무료 강의가 유튜브와
+							연동되어 제공됩니다. <br>
+							<br> <img src="../image/yun00.png"
+								id="imagepreview" style="width: 256px; height: 256px;">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+</body>
+</html>
